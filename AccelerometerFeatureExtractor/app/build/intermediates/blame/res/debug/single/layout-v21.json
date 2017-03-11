@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\ashu\\Documents\\AccelerometerFeatureExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\ashu\\.android\\build-cache\\b42a079db35e2674bc7a7b64e62f88914dd2145d\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\ashu\\Documents\\AccelerometerFeatureExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\ashu\\.android\\build-cache\\b42a079db35e2674bc7a7b64e62f88914dd2145d\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\ashu\\Documents\\AccelerometerFeatureExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\ashu\\.android\\build-cache\\b42a079db35e2674bc7a7b64e62f88914dd2145d\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\ashu\\Documents\\AccelerometerFeatureExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\ashu\\.android\\build-cache\\b42a079db35e2674bc7a7b64e62f88914dd2145d\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

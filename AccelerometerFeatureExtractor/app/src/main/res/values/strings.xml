@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AccelerometerFeatureExtractor</string>
+    <string name="description"> Please select a task and click on Collect Data </string>
+    <string name="walk">Walk</string>
+    <string name="walking_upstairs">Walking Upstairs</string>
+    <string name="walking_downstairs">Walking Downstairs</string>
+    <string name="run">Run</string>
+    <string name="idle"> Idle </string>
+    <string name="output_desc"> Output is stored in collected folder, file format is CSV</string>
+</resources>

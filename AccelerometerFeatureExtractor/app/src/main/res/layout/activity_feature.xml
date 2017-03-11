@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashu.accelerometerfeatureextractor.FeatureActivity"
+    >
+
+    <TextView
+        android:text="@string/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteY="4dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:text="Collect Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cData"
+        android:onClick="collectData"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        tools:layout_editor_absoluteY="291dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:text="Stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cData"
+        android:layout_toRightOf="@+id/labels"
+        android:layout_toEndOf="@+id/labels"
+        android:id="@+id/button5"
+        android:onClick="stopD"
+        tools:layout_editor_absoluteY="291dp"
+        tools:layout_editor_absoluteX="175dp" />
+
+    <RadioGroup
+        android:id="@+id/labels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="71dp">
+
+        <RadioButton
+            android:id="@+id/walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/walk" />
+
+        <RadioButton
+            android:id="@+id/walkDownstair"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:text="@string/walking_upstairs" />
+
+        <RadioButton
+            android:id="@+id/walkUpstair"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:text="@string/walking_downstairs" />
+
+        <RadioButton
+            android:id="@+id/run"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/run" />
+
+        <RadioButton
+            android:id="@+id/sit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idle" />
+
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output_desc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+</android.support.constraint.ConstraintLayout>
