@@ -24,7 +24,7 @@ class comparePointsX implements Comparator<ThreeData> {
 
     @Override
     public int compare(ThreeData p1, ThreeData p2) {
-        if (p1.x < p2.x) {
+        if (p1.x > p2.x) {
             return 1;
         }
         return -1;
@@ -37,7 +37,7 @@ class comparePointsY implements Comparator<ThreeData> {
 
     @Override
     public int compare(ThreeData p1, ThreeData p2) {
-        if (p1.y < p2.y) {
+        if (p1.y > p2.y) {
             return 1;
         }
         return -1;
@@ -50,7 +50,7 @@ class comparePointsZ implements Comparator<ThreeData> {
 
     @Override
     public int compare(ThreeData p1, ThreeData p2) {
-        if (p1.z < p2.z) {
+        if (p1.z > p2.z) {
             return 1;
         }
         return -1;
