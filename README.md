@@ -3,8 +3,7 @@
 My android related projects
 
 # Chat App
-A chat app for the server I made in Scala 
-Link to chat server ``` https://github.com/ashsingh21/ChatServer ```
+A chat app for the server I made in Scala, link to chat server ``` https://github.com/ashsingh21/ChatServer ```
 
 ## Screenshots
 
