@@ -7,4 +7,4 @@ A chat app for the server I made in Scala
 Link to chat server ``` https://github.com/ashsingh21/ChatServer ```
 
 ## Screenshots
-![](Chat/screenshots/chat.png =300x300)
+![](Chat/screenshots/chat.png)
