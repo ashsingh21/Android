@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="StartChat">Find Someone</string>
+    <string name="message_hint">Enter Message</string>
+    <string name="send_button">Send</string>
+</resources>
