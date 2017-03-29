@@ -43,8 +43,8 @@ public class ChatActivity extends AppCompatActivity implements WebSocket.SocketC
         editText = (EditText) findViewById(R.id.text_to_send);
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
 
-        String address = "ws://10.0.0.15:8080/chat?username=";
-        username = "user" + System.currentTimeMillis();
+        String address = "ws://10.0.0.15:8080/chat?username="; // socket address
+        username = "user" + System.currentTimeMillis(); // username generation
 
         initializeViews(address,username);
 
@@ -66,6 +66,7 @@ public class ChatActivity extends AppCompatActivity implements WebSocket.SocketC
             llm.setReverseLayout(true);
             llm.setStackFromEnd(true);
 
+			// setting correct width for recycler view i.e messageView
             DisplayMetrics displaymetrics = new DisplayMetrics();
             getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
 
@@ -129,6 +130,7 @@ public class ChatActivity extends AppCompatActivity implements WebSocket.SocketC
     public String outgoingMessage() {
         String msg = editText.getText().toString();
         Log.e("Message", msg);
+		// if message is not empty send message 
         if (!msg.trim().isEmpty()) {
             if(mva.getItemCount() > message_reverse_count) llm.setReverseLayout(false);
             mva.addMessage(new Message(msg, false));

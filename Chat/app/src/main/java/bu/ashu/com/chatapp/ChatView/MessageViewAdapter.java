@@ -56,7 +56,7 @@ public class MessageViewAdapter extends RecyclerView.Adapter<MessageViewAdapter.
 
 
     public class MessageViewHolder extends RecyclerView.ViewHolder {
-
+		
         CardView message_card;
         TextView incoming_text, outgoing_text;
 
@@ -78,6 +78,7 @@ public class MessageViewAdapter extends RecyclerView.Adapter<MessageViewAdapter.
     @Override
     public void onBindViewHolder(MessageViewAdapter.MessageViewHolder holder, int position) {
         Message message = messages.get(position);
+		// change color and text position according to message type
         if (message.incoming) {
             holder.message_card.setLayoutParams(paramsLeft);
             holder.message_card.setCardBackgroundColor(Color.parseColor("#FFF176"));
