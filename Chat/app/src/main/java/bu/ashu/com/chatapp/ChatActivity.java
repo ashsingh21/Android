@@ -130,7 +130,7 @@ public class ChatActivity extends AppCompatActivity implements WebSocket.SocketC
     public String outgoingMessage() {
         String msg = editText.getText().toString();
         Log.e("Message", msg);
-		// if message is not empty send message 
+		// if message is not empty send message to server
         if (!msg.trim().isEmpty()) {
             if(mva.getItemCount() > message_reverse_count) llm.setReverseLayout(false);
             mva.addMessage(new Message(msg, false));
